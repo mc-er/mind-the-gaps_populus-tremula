@@ -297,16 +297,39 @@ vcftools \
     --weir-fst-pop pop2.txt \
     --out stats/${asm}/fst_${asm}
 ```
-pop1.txt
+pop1.txt (East, higher elevation)
 - NordAsp_E17
 - NordAsp_E21
 - NordAsp_E28
 - NordAsp_X701
 - NordAsp_X706
 
-pop2.txt
+pop2.txt (West, lower elevation)
 - NordAsp_G17
 - NordAsp_M14
 - NordAsp_M21
 - NordAsp_M29
 - NordAsp_M30
+
+### Addition
+Pairwise Fst was also calculated in windows for three populations using the same code as above with the added `--fst-window-size 10000`
+
+pop1.txt (West)
+- NordAsp_M14
+- NordAsp_M21
+- NordAsp_M29
+- NordAsp_M30
+- NordAsp_M48
+
+pop2.txt (Mountain)
+- NordAsp_H5
+- NordAsp_N8
+- NordAsp_N29
+- NordAsp_B7
+
+pop3.txt (East)
+- NordAsp_L54
+- NordAsp_L49
+- NordAsp_L46
+- NordAsp_F44
+- NordAsp_F31
