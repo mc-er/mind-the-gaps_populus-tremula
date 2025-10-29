@@ -4,8 +4,6 @@
 #SBATCH -n 1
 #SBATCH -c 4
 #SBATCH -t 7-00:00:00
-#SBATCH --mail-user mimmi.eriksson@umu.se
-#SBATCH --mail-type=FAIL,END
 #SBATCH -J haplo_merge
 #SBATCH --output=/proj/nobackup/hpc2nstor2025-059/mimmi/mind_the_gaps/reports/sbatch/haplo_merge/sbatch_R-%x_%j-%a.out
 #SBATCH --error=/proj/nobackup/hpc2nstor2025-059/mimmi/mind_the_gaps/reports/sbatch/haplo_merge/sbatch_R-%x_%j-%a.err

@@ -5,8 +5,6 @@
 #SBATCH -n 1
 #SBATCH -c 1
 #SBATCH -t 1-00:00:00
-#SBATCH --mail-user mimmi.eriksson@umu.se
-#SBATCH --mail-type=FAIL,END
 #SBATCH -J nt_div
 #SBATCH --output=/home/m/mimmie/projects/aspen_hpc2nstor2025-059/mimmi/NordAsp_40/reports/sbatch/nt_div/sbatch_R-%x_%j.out
 #SBATCH --error=/home/m/mimmie/projects/aspen_hpc2nstor2025-059/mimmi/NordAsp_40/reports/sbatch/nt_div/sbatch_R-%x_%j.err

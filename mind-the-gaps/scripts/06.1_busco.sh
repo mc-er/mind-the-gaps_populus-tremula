@@ -4,8 +4,6 @@
 #SBATCH -n 1
 #SBATCH -c 80
 ##SBATCH -C zen4
-#SBATCH --mail-user mimmi.eriksson@umu.se
-#SBATCH --mail-type=FAIL,END
 #SBATCH -t 2-00:00:00
 #SBATCH -J busco
 #SBATCH --output=/proj/nobackup/hpc2nstor2025-059/mimmi/mind_the_gaps/reports/sbatch/busco/sbatch_R-%x_%j.out

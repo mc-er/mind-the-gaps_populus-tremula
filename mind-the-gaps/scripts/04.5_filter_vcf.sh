@@ -4,8 +4,6 @@
 #SBATCH -n 1
 #SBATCH -c 10
 #SBATCH -t 1-00:00:00
-#SBATCH --mail-user mimmi.eriksson@umu.se
-#SBATCH --mail-type=FAIL,END
 #SBATCH -J filter_vcf
 #SBATCH --output=/proj/nobackup/hpc2nstor2025-059/mimmi/mind_the_gaps/reports/sbatch/filter_vcf/sbatch_R-%x_%j-%a.out
 #SBATCH --error=/proj/nobackup/hpc2nstor2025-059/mimmi/mind_the_gaps/reports/sbatch/filter_vcf/sbatch_R-%x_%j-%a.err
